@@ -30,8 +30,6 @@ export default function Home() {
         <div className="absolute inset-x-0 top-0 -z-10 h-72 bg-gradient-to-b from-fuchsia-500/10 to-transparent blur-3xl" />
 
         <section className="mx-auto flex min-h-screen w-full max-w-7xl flex-col px-6 py-6 sm:px-10 lg:px-12">
-          
-
           <div className="flex flex-1 flex-col items-center justify-center py-20">
             <div className="grid w-full items-center gap-14 lg:grid-cols-[1.15fr_0.85fr]">
               <div className="max-w-3xl">
@@ -58,7 +56,7 @@ export default function Home() {
                     Explore the page
                   </a>
                   <a
-                    href="#contact"
+                    href="/contact"
                     className="inline-flex items-center justify-center rounded-full border border-white/15 bg-white/5 px-6 py-3.5 text-base font-semibold text-white transition hover:bg-white/10"
                   >
                     Let us build it
