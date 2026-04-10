@@ -66,6 +66,7 @@ export default function Home() {
                 <p className="mt-6 max-w-2xl text-lg leading-8 text-white/70 sm:text-xl">
                   Replace the default Next.js starter with a bold, modern
                   experience that feels premium from the first glance.
+                  "Ubah 1 halaman default Next.js dengan pengalaman yang berani dan modern yang terasa premium sejak pandangan pertama."
                 </p>
 
                 <div className="mt-10 flex flex-col gap-4 sm:flex-row">
