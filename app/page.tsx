@@ -30,35 +30,6 @@ export default function Home() {
         <div className="absolute inset-x-0 top-0 -z-10 h-72 bg-gradient-to-b from-fuchsia-500/10 to-transparent blur-3xl" />
 
         <section className="mx-auto flex min-h-screen w-full max-w-7xl flex-col px-6 py-6 sm:px-10 lg:px-12">
-          <header className="flex items-center justify-between rounded-full border border-white/10 bg-white/5 px-5 py-3 backdrop-blur-md">
-            <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-fuchsia-500 via-purple-500 to-cyan-400 text-sm font-bold shadow-lg shadow-fuchsia-500/30">
-                F
-              </div>
-              <div>
-                <p className="text-sm font-semibold tracking-wide text-white">
-                  Fathy Studio
-                </p>
-                <p className="text-xs text-white/60">Creative web presence</p>
-              </div>
-            </div>
-
-            <div className="flex gap-2">
-              <a
-                href="/contact"
-                className="rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
-              >
-                Contact
-              </a>
-              <a
-                href="/about"
-                className="rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
-              >
-                About
-              </a> 
-            </div>
-          </header>
-
           <div className="flex flex-1 flex-col items-center justify-center py-20">
             <div className="grid w-full items-center gap-14 lg:grid-cols-[1.15fr_0.85fr]">
               <div className="max-w-3xl">
