@@ -43,12 +43,20 @@ export default function Home() {
               </div>
             </div>
 
-            <a
-              href="#contact"
-              className="rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
-            >
-              Contact
-            </a>
+            <div className="flex gap-2">
+              <a
+                href="#contact"
+                className="rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
+              >
+                Contact
+              </a>
+              <a
+                href="/about"
+                className="rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
+              >
+                About
+              </a> 
+            </div>
           </header>
 
           <div className="flex flex-1 flex-col items-center justify-center py-20">
