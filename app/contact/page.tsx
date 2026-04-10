@@ -13,26 +13,6 @@ export default function ContactPage() {
         <div className="absolute inset-x-0 top-0 -z-10 h-72 bg-linear-to-b from-rose-500/10 to-transparent blur-3xl" />
 
         <section className="mx-auto flex min-h-screen w-full max-w-7xl flex-col px-6 py-6 sm:px-10 lg:px-12">
-          <header className="flex items-center justify-between rounded-full border border-white/10 bg-white/5 px-5 py-3 backdrop-blur-md">
-            <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-linear-to-br from-rose-500 via-orange-400 to-sky-400 text-sm font-bold text-zinc-950 shadow-lg shadow-rose-500/30">
-                F
-              </div>
-              <div>
-                <p className="text-sm font-semibold tracking-wide text-white">
-                  Fathy Studio
-                </p>
-                <p className="text-xs text-white/60">Let&apos;s build your next launch</p>
-              </div>
-            </div>
-
-            <a
-              href="/"
-              className="rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
-            >
-              Back to home
-            </a>
-          </header>
 
           <div className="flex flex-1 items-center py-12 sm:py-16">
             <div className="grid w-full gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-8">
